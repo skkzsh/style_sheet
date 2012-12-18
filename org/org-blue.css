@@ -1,8 +1,14 @@
+/*
+ * Style Sheet for Org Mode
+ * (from http://d.hatena.ne.jp/tamura70/20100216/org)
+ */
+
 /* body */
 body
 {
   background: #336666;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
   font: normal;
   color: white;
   margin: 0px;
@@ -127,10 +133,11 @@ div#postamble
 {
   clear: both;
   padding: 0.5em;
+  text-align: right;
 }
 div#postamble p
 {
-  font-style: italic;
+  /* font-style: italic; */
   font-size: small;
   margin: 0em;
   padding: 0em;
@@ -139,9 +146,8 @@ div#postamble a
 {
   color: white;
 }
-div#postamble p.date
-{
-  font-style: italic;
+p.creator {
+    color: #a0a0a0;
 }
 
 /* body > div#content > div#org-info-js_console-container */
