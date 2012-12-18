@@ -77,12 +77,15 @@ div.clear
 }
 
 /* body > div#content > div#table-of-content */
+#table-of-contents h2 {
+    display: none;  /* NOT display "Table of Contents" */
+}
 #table-of-contents
 {
   background: white;
   color: black;
   margin: 0em;
-  padding: 0.1em 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
   line-height: 1.5;
 }
 
