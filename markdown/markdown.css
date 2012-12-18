@@ -8,7 +8,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 body{
 color:#444;
 /* font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif; */
-font-family:'ヒラギノ丸ゴ Pro W4','Hiragino Maku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
 font-size:12px;
 line-height:1.5em;
 padding:1em;
