@@ -89,7 +89,8 @@ blockquote p {
     font-style: italic;
 }
 code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
+    /* font-family: Monaco, Andale Mono, Courier New, monospace; */
+    font-family: monospace;
     white-space: pre-wrap;
     word-wrap: break-word;
 }

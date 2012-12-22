@@ -299,6 +299,7 @@ pre
 {
   background: gainsboro;
   font-family: monospace;
+  /* font-family: Monaco, "Courier New", Courier, monospace; */
   font-weight: normal;
   font-style: normal;
   white-space: pre;
@@ -348,6 +349,8 @@ th, td
 
 code, tt
 {
+  /* font-family: monospace; */
+  /* font-family: Monaco, "Courier New", Courier, monospace; */
   font-family: monospace;
   font-style: normal;
 }
