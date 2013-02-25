@@ -1,0 +1,83 @@
+#+TITLE: サンプル
+#+AUTHOR: skkzsh
+#+EMAIL: skkzsh@myopera.com
+#+LANGUAGE: ja
+#+OPTIONS: \n:nil
+#+STYLE: <link rel="stylesheet" type="text/css" href="../org.css" title="org">
+
+* レベル1のスライムがあらわれた
+
+** レベル2のスライムがあらわれた
+
+*** レベル3のスライムがあらわれた
+
+**** レベル4のスライムがあらわれた
+
+* 下線
+  -----
+
+* 強調
+  - *太山を挟みて北海を超ゆ*
+  - /Happy Hacking Keyboard/
+  - _李下に冠を正さず_
+  - +この文は削除されました+
+  - =Code=
+  - ~Propotional~
+
+* リスト
+
+- フシギダネ
+- ヒトカゲ
+- ゼニガメ
+
+
+1. りゅうおう
+2. シドー
+3. ゾーマ
+
+* リンク
+
+[[https://github.com/skkzsh/style_sheet][github.com/skkzsh/style\_sheet]]
+
+* 画像
+
+[[http://i.minus.com/ibeZeA0UxKPOC9.png]]
+
+* 表
+  | Microsoft    | Apple                | Linux                |
+  |--------------+----------------------+----------------------|
+  | ビル・ゲイツ | スティーブ・ジョブズ | リーナス・トーバルズ |
+  | Windows      | Macintosh            | Ubuntu, Fedora, ...  |
+
+* 引用
+  #+BEGIN_QUOTE
+  これは箱男についての記録である。
+  ぼくは今、この記録を箱のなかで書きはじめている。
+  頭からかぶると、すっぽり、ちょうと腰の辺まで届くダンボールの箱の中だ。
+  つまり、今のところ、箱男はこのぼく自身だということでもある。
+  箱男が、箱の中で、箱男の記録をつけているというわけだ。
+  #+END_QUOTE
+
+* 例
+  #+BEGIN_EXAMPLE
+  例えば、のび太がジャイアンにイジメられて、
+  ドラえもんに助けを求めにいくとする。
+  #+END_EXAMPLE
+
+* 韻文
+  #+BEGIN_VERSE
+  おかしいな
+  時給にすると
+  バイト以下
+  #+END_VERSE
+
+* コード
+  =perl= のサンプル
+  #+BEGIN_SRC perl
+  @lines = `perldoc -u -f atan2`;
+  foreach (@lines) {
+      s/\w<([^>]+)>/\U$1/g;
+      print;
+  }
+  #+END_SRC
+
