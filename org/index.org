@@ -1,4 +1,4 @@
-#+TITLE: リスト
+#+TITLE: Org-Mode用スタイルシート
 #+AUTHOR: skkzsh
 #+EMAIL: skkzsh@myopera.com
 #+LANGUAGE: ja
@@ -6,5 +6,11 @@
 #+STYLE: <link rel="stylesheet" type="text/css" href="http://skkzsh.github.com/style_sheet/org/white-org.css" title="white">
 
 [[./sample/white-sample.org][White]]
+#+BEGIN_EXAMPLE
+STYLE: <link rel="stylesheet" type="text/css" href="http://skkzsh.github.com/style_sheet/org/white-org.css">
+#+END_EXAMPLE
 
 [[./sample/light-in-dark-sample.org][Light in Dark]]
+#+BEGIN_EXAMPLE
+STYLE: <link rel="stylesheet" type="text/css" href="http://skkzsh.github.com/style_sheet/org/light-in-dark-org.css">
+#+END_EXAMPLE
