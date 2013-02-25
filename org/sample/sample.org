@@ -3,7 +3,7 @@
 #+EMAIL: skkzsh@myopera.com
 #+LANGUAGE: ja
 #+OPTIONS: \n:nil
-#+STYLE: <link rel="stylesheet" type="text/css" href="../org.css" title="org">
+#+STYLE: <link rel="stylesheet" type="text/css" href="../org.css" title="sample">
 
 * レベル1のスライムがあらわれた
 

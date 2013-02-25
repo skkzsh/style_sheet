@@ -1,4 +1,4 @@
-<link href="../markdown.css" rel="stylesheet" title="test"></link>
+<link href="../markdown.css" rel="stylesheet" title="sample"></link>
 
 <link href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
