@@ -8,7 +8,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 body
 {
   /* background: #fefefe; */
-  background: gray15;
+  background: #262626;
   /* font-family: sans-serif; */
   font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
   font: normal;
@@ -38,8 +38,8 @@ body
 
 #content>h1
 {
-  font-size: xx-large;
-  color: whitesmoke;
+  font-size: 2.5em;
+  color: #f5f5f5;
   /* margin: 0em; */
   /* padding: 1em 1em 0.5em 1em; */
 }
@@ -106,7 +106,7 @@ div.clear
   padding: 1em 0em;
   line-height: 1.8;
   /* background: #ffffcc; */
-  background: gray97;
+  background: #f7f7f7;
   color: black;
   font-size: normal;
   font-weight: bold;
@@ -157,6 +157,7 @@ div#postamble p
   font-size: small;
   margin: 0em;
   padding: 0em;
+  font-size: 0.9em;
 }
 div#postamble a
 {
@@ -284,7 +285,7 @@ line-height:1em;
 h2
 {
   /* font-size: large; */
-  font-size: 2em;
+  font-size: 1.8em;
   /* border-left: 15px solid darkblue; */
   /* border-bottom: 2px solid #cccccc; */
   /* margin: 0.5em 0em 0.5em 0em; */
@@ -322,7 +323,7 @@ ul, ol, dl
 
 pre
 {
-  background: gainsboro;
+  background: #dcdcdc;
   font-family: monospace;
   /* font-family: Monaco, "Courier New", Courier, monospace; */
   font-weight: normal;
@@ -337,7 +338,7 @@ pre
 pre.example
 {
   /* background: #eeeeff; */
-  background: gray99;
+  background: #fcfcfc;
 }
 pre.src
 {
@@ -371,8 +372,8 @@ table
 }
 /* thead { background: #cccccc; } */
 /* tbody { background: #eeeeee; } */
-thead { color: dimgray; background: gray92; }
-tbody { color: gray15; background: gray98; }
+thead { color: #696969; background: #ebebeb; }
+tbody { color: #262626; background: #fafafa; }
 th.left { text-align: center; }
 th.right { text-align: center; }
 /* th, td */
