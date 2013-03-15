@@ -15,4 +15,6 @@ STYLE: <link rel="stylesheet" type="text/css" href="http://skkzsh.github.com/sty
 STYLE: <link rel="stylesheet" type="text/css" href="http://skkzsh.github.com/style_sheet/org/light-in-dark-org.css">
 #+END_EXAMPLE
 
+[[http:./sample/sample.org][org-modeのサンプルファイル]]
+
 [[../index.html][<Top>]]

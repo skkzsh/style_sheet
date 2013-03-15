@@ -4,4 +4,6 @@
 
 - [その1](./sample/markdown-sample.html)
 
+[Markdownのサンプルファイル](./sample/sample.md)
+
 <[Top](../index.html)>
