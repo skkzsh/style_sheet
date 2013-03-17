@@ -1,6 +1,9 @@
 /*
  * Style Sheet for Markdown
  * (from https://github.com/clownfart/Markdown-CSS)
+ *
+ * Modified
+ * (Fonts for Japanese)
  */
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
