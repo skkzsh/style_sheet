@@ -88,7 +88,7 @@ div.clear
 
 /* body > div#content > div#table-of-content */
 #table-of-contents h2 {
-    display: none;  /* NOT display "Table of Contents" */
+  display: none;  /* NOT display "Table of Contents" */
 }
 #table-of-contents
 {
@@ -164,7 +164,7 @@ div#postamble a
   color: #a0a0a0;
 }
 p.creator {
-    color: #a0a0a0;
+  color: #a0a0a0;
 }
 
 /* body > div#content > div#org-info-js_console-container */
@@ -267,19 +267,19 @@ p.footnote
 }
 
 /*
-   General settings
+General settings
  */
 /*
 h2, h3, h4
 {
-  text-shadow: 2px 1px 3px #aaaaaa;
+text-shadow: 2px 1px 3px #aaaaaa;
 }
-*/
+ */
 
 h1,h2,h3,h4{
-font-weight:normal;
-color:#111;
-line-height:1em;
+  font-weight:normal;
+  color:#111;
+  line-height:1em;
 }
 
 h2
@@ -357,11 +357,11 @@ blockquote
 {
   /* background: lightgray; */
   /* margin: 0em 2em; */
-    margin:0;
+  margin:0;
   /* padding: 1em; */
-    color:#666666;
-    padding-left: 3em;
-    border-left: 0.5em #EEE solid;
+  color:#666666;
+  padding-left: 3em;
+  border-left: 0.5em #EEE solid;
 }
 
 table

@@ -7,14 +7,12 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 /* body */
 body
 {
-  /* background: #336666; */
   /* background: #fefefe; */
-  background: gray15;
+  background: #262626;
   /* font-family: sans-serif; */
   font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
   font: normal;
   color: white;
-  /* color: #444; */
   /* margin: 0px; */
   margin:auto;
   /* padding: 1em 0em; */
@@ -40,8 +38,8 @@ body
 
 #content>h1
 {
-  font-size: xx-large;
-  color: whitesmoke;
+  font-size: 2.5em;
+  color: #f5f5f5;
   /* margin: 0em; */
   /* padding: 1em 1em 0.5em 1em; */
 }
@@ -90,7 +88,7 @@ div.clear
 
 /* body > div#content > div#table-of-content */
 #table-of-contents h2 {
-    display: none;  /* NOT display "Table of Contents" */
+  display: none;  /* NOT display "Table of Contents" */
 }
 #table-of-contents
 {
@@ -108,7 +106,7 @@ div.clear
   padding: 1em 0em;
   line-height: 1.8;
   /* background: #ffffcc; */
-  background: gray97;
+  background: #f7f7f7;
   color: black;
   font-size: normal;
   font-weight: bold;
@@ -152,7 +150,6 @@ div#postamble
   /* padding: 0.5em; */
   padding: 1em 0em;
   text-align: right;
-  /* border-top: 2px solid gray88; */
 }
 div#postamble p
 {
@@ -160,13 +157,14 @@ div#postamble p
   font-size: small;
   margin: 0em;
   padding: 0em;
+  font-size: 0.9em;
 }
 div#postamble a
 {
   color: #a0a0a0;
 }
 p.creator {
-    color: #a0a0a0;
+  color: #a0a0a0;
 }
 
 /* body > div#content > div#org-info-js_console-container */
@@ -269,25 +267,25 @@ p.footnote
 }
 
 /*
-   General settings
+General settings
  */
 /*
 h2, h3, h4
 {
-  text-shadow: 2px 1px 3px #aaaaaa;
+text-shadow: 2px 1px 3px #aaaaaa;
 }
-*/
+ */
 
 h1,h2,h3,h4{
-font-weight:normal;
-color:#111;
-line-height:1em;
+  font-weight:normal;
+  color:#111;
+  line-height:1em;
 }
 
 h2
 {
   /* font-size: large; */
-  font-size: 2em;
+  font-size: 1.8em;
   /* border-left: 15px solid darkblue; */
   /* border-bottom: 2px solid #cccccc; */
   /* margin: 0.5em 0em 0.5em 0em; */
@@ -325,7 +323,7 @@ ul, ol, dl
 
 pre
 {
-  background: gainsboro;
+  background: #dcdcdc;
   font-family: monospace;
   /* font-family: Monaco, "Courier New", Courier, monospace; */
   font-weight: normal;
@@ -340,7 +338,7 @@ pre
 pre.example
 {
   /* background: #eeeeff; */
-  background: gray99;
+  background: #fcfcfc;
 }
 pre.src
 {
@@ -359,11 +357,11 @@ blockquote
 {
   /* background: lightgray; */
   /* margin: 0em 2em; */
-    margin:0;
+  margin:0;
   /* padding: 1em; */
-    color:#666666;
-    padding-left: 3em;
-    border-left: 0.5em #EEE solid;
+  color:#666666;
+  padding-left: 3em;
+  border-left: 0.5em #EEE solid;
 }
 
 table
@@ -374,8 +372,8 @@ table
 }
 /* thead { background: #cccccc; } */
 /* tbody { background: #eeeeee; } */
-thead { color: dimgray; background: gray92; }
-tbody { color: gray15; background: gray98; }
+thead { color: #696969; background: #ebebeb; }
+tbody { color: #262626; background: #fafafa; }
 th.left { text-align: center; }
 th.right { text-align: center; }
 /* th, td */
